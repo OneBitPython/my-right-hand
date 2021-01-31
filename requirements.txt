@@ -1,8 +1,4 @@
 ChatterBot==1.0.4
-chatterbot-corpus==1.2.0
-flake8 @ file:///tmp/build/80754af9/flake8_1601911421857/work
-Flask==1.1.2
-Flask-SQLAlchemy==2.4.4
 geocoder==1.38.1
 geographiclib==1.50
 geopy==2.1.0
