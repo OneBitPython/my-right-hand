@@ -7,7 +7,6 @@ google-auth-oauthlib==0.4.2
 googlesearch-python==2020.0.2
 imagesize==1.2.0
 keyboard==0.13.5
-PyAudio==0.2.11
 pygame==2.0.0
 pyjokes==0.6.0
 pyperclip==1.8.1
