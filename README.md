@@ -11,7 +11,7 @@
 ## How to run the code
 You can run the code by installing the exe file and then running the MAIN.py file inside it. If you find it difficult to run the program, you can watch our quick video on some basic functionality of our program.
 
-![](MAIN.gif)(Final.mp4)
+[![Virtual Assistant](MAIN.gif)](Final.mp4)
 
 ## Some advanced features
 
