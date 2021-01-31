@@ -8,4 +8,4 @@
  It has a settings page which you can use to customize different things like your name and the voice of the assistant (Male and Female). It also calculates where your internet is coming from. These changes are automatically saved. It also has a built-in TODO application where you can insert items and set dates to complete them, delete items, edit items, clear items and prioritize your schedule. It also sends you notifications when there are only 3 days left to complete the task you had set. It also has features like writing notes and logging them, searching for things on google, youtube, quora and even wikipedia!! There is also a wiki console which shows you the text and a picture of what you searched for 
 
 
-![](C:\Users\acham\Pictures\Screenshots\main_screen.png)
+![](main_screen.png)
