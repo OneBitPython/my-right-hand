@@ -1,0 +1,522 @@
+Im fine, thanks for asking. Im doing the best I can. Hey, whats poppin? I strive to my potential. I'm not trying to be stupid. Howdy. Wassup. Opening youtube.
+ I love many things. Many things are nice. I've been made by PHP_sucks.. How are you, well i am fine. Sending whatsapp message, please wait. Opening gmail.
+ Opening outlook. Playing video on youtube. Searching text on google. Searching text on wikipedia (wiki). Playing music.
+ I can tell you a joke, to get rid of your boredom. Hello, I'm ChattyBotty. Sure, I will go to sleep now, Sleeping. Searching quora.
+
+TFIDF is a statistical measure that evaluates how relevant a word is to a document in a collection of documents, This is done by multiplying two metrics:
+how many times a word appears in a document, and the inverse document frequency of the word across a set of documents.TFIDF (term frequency-inverse document frequency)
+was invented for document search and information retrieval, It works by increasing proportionally to the number of times a word appears in a document, but is offset
+by the number of documents that contain the word, So, words that are common in every document, such as this, what, and if, rank low even though they may appear many
+times, since they don’t mean much to that document in particular, TFIDF is an extremely important topic to know,
+
+You can learn more about TFIDF here, https://monkeylearn.com/blog/what-is-tf-idf/ or for a video understanding visit - https://youtu.be/D2V1okCEsiE .
+
+
+NLTK is a leading platform for building Python programs to work with human language data, NLTK provides easy-to-use interfaces to over 50 corpora and
+lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning,
+wrappers for industrial-strength NLP libraries, and an active discussion forum, NLTK is a very useful module for data preprocessing,
+
+You can learn about NLTK more over here, https://www.nltk.org/ .
+
+
+We can also use NLTK to find out the distribution of certain words within the text This will be displayed in what we call the dispersion plot.
+
+floats in python(floating point real values) − Also called floats, they represent real numbers and are written with a decimal point dividing the integer and fractional
+parts, Floats are an important data type in python
+
+More about it here-https://www.tutorialspoint.com/python/python_numbers.htm .
+
+
+Python contains many basic principles that are important to know, here are a few-
+1 Variables, there are many types of variables this can include-
+    i) Strings
+    ii) Floats
+    iii) Integers
+    iv) booleans
+    
+2 Data types are also very important in python
+    i) List
+    ii) Tuples
+    iii) Dictionaries
+    iv)Sets
+    
+    
+If you are more of a video guy and want a deep understanding of python visit - https://youtu.be/sxTmJE4k0ho
+ 
+YOU CAN ALSO LOOK FOR THESE TOPIC IN DETAILED AND I WILL BE HAPPY TO HELP,
+There are also many other important things that you need to know, more about that here https://www.tutorialspoint.com/python/python_variable_types.htm .
+
+
+
+Here are some useful video and text based resources to learn python -
+    i) https://www.youtube.com/results?search_query=corey+scafer (Video)
+    ii) https://www.youtube.com/results?search_query=tech+with+tim (Video)
+    iii) https://www.youtube.com/results?search_query=sentdex (Video)
+    iv) https://www.youtube.com/results?search_query=cs+dojo (Video)
+    v) https://www.w3schools.com/python/default.asp (Text)
+    vi) https://docs.python.org/3/ (Text)
+    vii) https://www.python.org/ (Text)
+    viii) https://www.geeksforgeeks.org/python-programming-language/ (Text)
+    ix) Machine learning tutorials (https://www.youtube.com/watch?v=gmvvaobm7eQ&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw)(Video resource)
+
+Hope you find these resources for python useful.
+
+
+Strings in python are surrounded by either single quotation marks, or double quotation marks,
+'hello' is the same as "hello",
+You can display a string literal with the print() function,
+
+More about strings here, https://www.w3schools.com/python/python_strings.asp .
+
+Python supports integers, floating-point numbers and complex numbers, They are defined as int , float , and complex classes in Python,For instance, 5 is an integer
+whereas 5.0 is a floating-point number, Complex numbers are written in the form, x + yj , where x is the real part and y is the imaginary part,
+More about it here, https://www.programiz.com/python-programming/numbers .
+
+
+Booleans in python consist of either a True or a False like a yes or no.
+
+Lists are used to store multiple items in a single variable, len function can be used to count number of tokens in a list,
+Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage,
+Lists are created using square brackets, There are many use cases of Lists and they are very important to know,
+
+Learn more here - https://www.w3schools.com/python/python_lists.asp .
+
+Sets are used to store multiple items in a single variable,
+Set is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Tuple, and Dictionary, all with different qualities and usage,
+A set is a collection which is both unordered and unindexed,
+Sets are written with curly brackets, more about it here-
+
+https://www.w3schools.com/python/python_sets.asp .
+
+
+Dictionaries are used to store data values in key:value pairs,
+A dictionary is a collection which is unordered, changeable and does not allow duplicates,
+Dictionaries are written with curly brackets, and have keys and values, 
+
+Learn more here - https://www.w3schools.com/python/python_dictionaries.asp .
+
+
+Tuples are used to store multiple items in a single variable,
+Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage,
+A tuple is a collection which is ordered and unchangeable,
+Tuples are written with round brackets,
+
+
+To learn more visit - https://www.w3schools.com/python/python_tuples.asp .
+
+
+
+So what is frequency distribution, This is basically counting words in your text, The class FreqDist  works like a dictionary where the keys are the words in the text
+and the values are the count associated with that word, to  plot distribution graphs use fdist1.plot(50, cumulative=True) after creating the variable fdist1,
+For more info visit -
+https://python.gotrained.com/frequency-distribution-in-nltk/ .
+
+The internet contains a wealth of data for your Natural Language Processing (NLP) projects, However, the data are usually not ready to be used for NLP projects,
+as they are not packaged in word document or spreadsheet that can be easily downloadable and further processed, Therefore, we have to learn to collect and process
+our own data, this is called web scraping.
+
+HyperText Markup Language (HTML) is a language that web pages are created in, HTML isnt a programming language, like Python — instead, its a markup language that
+tells a browser how to layout content, HTML allows you to do similar things to what you do in a word processor like Microsoft Word — make text bold, create paragraphs,
+and so on, Because HTML isn’t a programming language, it isnt nearly as complex as Python,
+for more info visit - https://www.dataquest.io/blog/web-scraping-tutorial-python/ . 
+
+
+The first thing we will need to do to scrape a web page is to download the page, We can download pages using the Python requests library, The requests library will
+make a GET request to a web server, which will download the HTML contents of a given web page for us, There are several different types of requests we can make using
+requests, of which GET is just one,
+
+for more info visit - https://www.dataquest.io/blog/web-scraping-tutorial-python/ . 
+
+
+Beautiful soup or BeautifulSoup or bs4 is used for scraping the web,We can use the BeautifulSoup library to parse a document, and extract the text from any tag,
+We first have to import the library, and create an instance of the BeautifulSoup class to parse our document,
+for more info visit - https://www.dataquest.io/blog/web-scraping-tutorial-python/ . 
+
+
+In computer programming, pandas is a software library written for the Python programming language for data manipulation and analysis, In particular, it offers
+data structures and operations for manipulating numerical tables and time series, It is free software released under the three-clause BSD license, it is a very
+important topic so i suggest you watch this very interesting video series to get a deep knowlege of python -
+(Video link - https://youtu.be/ZyhVh-qRZPA?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS ) or if you want a basic understanding visit -
+(Text based - https://www.tutorialspoint.com/python_pandas/index.htm ).
+
+
+A few of my features include-
+    i) Sending whatsapp messages, better be signed in to whatsapp web
+    ii) Opening youtube
+    iii) Opening google
+    iv) Search things on google
+    v) Play a youtube video
+    vi) Search things on wiki
+    vii) Basic conversations
+    viii) Answering mathematical problems
+    ix) Telling jokes
+    x) Telling you the weather
+    xi) Searching quora
+    xii) Showing satellite maps
+    xiii) Taking pictures
+    xiv) BUT MOST IMPORTANTLY help in your coding problems
+
+Hope you can make use of all my features,
+I have many other use cases and features and I'm always happy to help.
+
+urllib is a package that collects several modules for working with URLs:
+urllib.request for opening and reading URLs
+urllib.error containing the exceptions raised by urllib.request
+urllib.parse for parsing URLs
+urllib.robotparser for parsing robots.txt files,
+
+According to me this isnt a very important library but if you are interested to learn more, check this link out-
+https://docs.python.org/3/library/urllib.html .
+
+
+
+Python provides inbuilt functions for creating, writing and reading files, There are two types of files that can be handled in python,
+normal text files and binary files (written in binary language,0s and 1s), Access modes govern the type of operations possible in the opened file,
+It refers to how the file will be used once its opened, These modes also define the location of the File Handle in the file, File handle is like a cursor,
+which defines from where the data has to be read or written in the file, There are 6 access modes in python,
+
+For more info visit- https://www.geeksforgeeks.org/reading-writing-text-files-python/ and for a video based understanding go to - https://youtu.be/Uh2ebFW8OYM .
+
+
+with statement in Python is used in exception handling to make the code cleaner and much more readable,
+It simplifies the management of various things like file streams, Observe the following code example on how the use of with statement makes code cleaner,
+for more info visit - https://www.geeksforgeeks.org/with-statement-in-python/ , for a video based understanding visit - https://youtu.be/-aKFBoZpiqA .
+
+
+Variables are containers for storing data values, Python has no command for declaring a variable,
+A variable is created the moment you first assign a value to it.
+
+
+
+Stemming is the process of producing morphological variants of a root/base word, Stemming programs are commonly referred to as stemming algorithms or stemmers,
+A stemming algorithm reduces the words chocolates, chocolatey, choco to the root word, chocolate and retrieval, retrieved, retrieves reduce to the stem
+retrieve, There are mainly two errors in stemming  Overstemming and Understemming, Overstemming occurs when two words are stemmed to same root that are of
+different stems, Under-stemming occurs when two words are stemmed to same root that are not of different stems,
+
+If you want a deeper knowledge visit - https://www.geeksforgeeks.org/python-stemming-words-with-nltk/ or for a video based understanding visit -https://youtu.be/yGKTphqxR9Q .
+Lemmatization or lemming is the process of grouping together the different inflected forms of a word so they can be analysed as a single item, Lemmatization (lemming)is similar to
+stemming but it brings context to the words,So it links words with similar meaning to one word,Text preprocessing includes both Stemming as well as Lemmatization,
+Many times people find these two terms confusing, Some treat these two as same, Actually, lemmatization is preferred over Stemming because lemmatization does
+morphological analysis of the words,
+
+To understand the topic further visit - https://www.geeksforgeeks.org/python-lemmatization-with-nltk/ or for a video based understanding visit - https://youtu.be/JpxCt3kvbLk .
+
+
+Tokenization is the process of splitting each word into tokens, essentially words.
+
+
+A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string),
+This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages,
+With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
+
+For further understanding visit - https://www.w3schools.com/python/python_for_loops.asp .
+
+With the while loop we can execute a set of statements as long as a condition is true,The while loop requires relevant variables to be ready,
+in this example we need to define an indexing variable, i, which we set to 1 - i = 1
+while i < 6:
+  print(i)
+  i += 1
+
+For further uderstanding visit - https://www.w3schools.com/python/python_while_loops.asp .
+
+
+if else is used for coditions in python, You can also use if else with elif,
+Python supports the usual logical conditions from mathematics:
+
+Equals: a == b
+Not Equals: a != b
+Less than: a < b
+Less than or equal to: a <= b
+Greater than: a > b
+Greater than or equal to: a >= b
+These conditions can be used in several ways, most commonly in if statements and loops,
+
+An if else statement is written by using the if keyword.
+
+
+A function is a block of code which only runs when it is called,
+You can pass data, known as parameters, into a function,
+A function can return data as a result, for more info visit - https://www.w3schools.com/python/python_functions.asp .
+
+
+A lambda function is a small anonymous function,
+A lambda function can take any number of arguments, but can only have one expression,
+
+This is not a very important topic but if you want to improve your programming skills, feel free to visit - https://www.w3schools.com/python/python_lambda.asp .
+
+
+List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list,
+Example:
+Based on a list of fruits, you want a new list, containing only the fruits with the letter "a" in the name,
+Without list comprehension you will have to write a for statement with a conditional test inside,
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+
+print(newlist)
+
+List comprehensions is quite an important intermediate topic in python, I suggest you visit this site to learn more - https://www.w3schools.com/python/python_lists_comprehension.asp .
+
+Consider a module to be the same as a code library,
+A file containing a set of functions you want to include in your application, To create a module just save the code you want in a file with the file extension .py
+
+This in my opinion is a easy and useful thing to know in python, so I suggest visit this link to know more - https://www.w3schools.com/python/python_modules.asp .
+
+
+JSON is a syntax for storing and exchanging data,
+JSON is text, written with JavaScript object notation, Python has a built-in package called json, which can be used to work with JSON data,
+
+for a deeper understanding visit - https://www.w3schools.com/python/python_json.asp .
+
+A Comma Separated Values (CSV) file is a plain text file that contains a list of data. These files are often used for exchanging data between different applications,
+For example, databases and contact managers often support CSV files, These files may sometimes be called Character Separated Values or Comma Delimited files,
+They mostly use the comma character to separate (or delimit) data, but sometimes use other characters, like semicolons,
+The idea is that you can export complex data from one application to a CSV file, and then import the data in that CSV file into another application,
+
+This in my opinion is an important topic to understand while using datasets and also working with pandas, to understand csv files better visit -
+https://www.howtogeek.com/348960/what-is-a-csv-file-and-how-do-i-open-it/ .
+
+XML stands for eXtensible Markup Language
+XML is a markup language much like HTML
+XML was designed to store and transport data
+XML was designed to be self-descriptive
+XML is a W3C Recommendation
+
+You could visit this site for a deep understanding but it is not 100 percent necessary - https://www.w3schools.com/xml/xml_whatis.asp .
+
+String formatting is used to format a string, the format method or f string (can be used only after pyhton version 3.6) can be used for this, here is an example:
+price = 49
+txt = 'The price is {} dollars'
+print(txt.format(price))
+
+This is a useful method in python for more info visit - https://www.w3schools.com/python/python_string_formatting.asp .
+
+A RegEx, or Regular Expression, is a sequence of characters that forms a search pattern,
+RegEx can be used to check if a string contains the specified search pattern,
+Python has a built-in package called re, which can be used to work with Regular Expressions,
+
+
+for an in depth understanding go to - https://www.w3schools.com/python/python_regex.asp or for a video understanding visit - https://www.youtube.com/watch?v=K8L6KVGG-7o&t=2729s .
+
+
+
+PIP in short is a package manager for Python packages, or modules if you like.
+
+The try block lets you test a block of code for errors,
+The except block lets you handle the error,
+The finally block lets you execute code, regardless of the result of the try- and except blocks,
+Example :
+
+try:
+  print(x)
+except:
+  print("An exception occurred")
+
+This is a useful topic in python especially when you dont feel like debugging, so I suggest you visit - https://www.w3schools.com/python/python_try_except.asp .
+
+Python allows for user input, That means we are able to ask the user for input, The method is a bit different in Python 3 6 than Python 2 7,
+Python 3 6 uses the input() method,
+Python 2 7 uses the raw_input() method,
+
+This is efficient while making UI projects where you have to take user input, like always for more info visit - https://www.w3schools.com/python/python_user_input.asp .
+
+The Bag of Words (BoW) model is the simplest form of text representation in numbers, Like the term itself, we can represent a sentence as
+a bag of words vector (a string of numbers),
+for more info visit - https://www.analyticsvidhya.com/blog/2020/02/quick-introduction-bag-of-words-bow-tf-idf/ this is one of the more difficult topics to understand so
+I suggest you take a look at this video for a clearer understanding - https://youtu.be/IKgBLTeQQL8 .
+
+
+The problem with bag of words is -
+1  If the new sentences contain new words, then our vocabulary size would increase and thereby, the length of the vectors would increase too,
+2  Additionally, the vectors would also contain many 0s, thereby resulting in a sparse matrix (which is what we would like to avoid)
+3  We are retaining no information on the grammar of the sentences nor on the ordering of the words in the text,
+
+Because of these problems I suggest you take a look at TFIDF, another concept that I have explained.
+
+
+In Python we have lists that serve the purpose of arrays, but they are slow to process,
+NumPy aims to provide an array object that is up to 50x faster than traditional Python lists,
+The array object in NumPy is called ndarray, it provides a lot of supporting functions that make working with ndarray very easy,
+Arrays are very frequently used in data science, where speed and resources are very important,
+
+Please visit https://www.w3schools.com/python/numpy_intro.asp to understand the concept better.
+
+What is scikit-learn or sklearn, Scikit-learn is probably the most useful library for machine learning in Python, The sklearn library contains a lot of
+efficient tools for machine learning and statistical modeling including classification, regression, clustering and dimensionality reduction, I also have resources to study machine learning in depth.
+
+Linear models describe a continuous response variable as a function of one or more predictor variables, They can help you understand and predict the behavior
+of complex systems or analyze experimental,financial, and biological data, Linear regression is a statistical method used to create a linear model,
+
+The definition can be a bit intimidating but trust me visit this video (https://youtu.be/W3flX500w5g) and itll be a breeze.
+
+Linear regression attempts to model the relationship between two variables by fitting a linear equation to observed data,
+One variable is considered to be an explanatory variable, and the other is considered to be a dependent variable, linear regression can be used for models trying to
+predict house prices, etc, visit https://youtu.be/8jazNUpO3lQ?list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw for more info.
+
+
+Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable, although many more complex extensions
+exist, In regression analysis, logistic regression (or logit regression) is estimating the parameters of a logistic model (a form of binary regression),
+
+Definitions are always a bit difficult to process, thats why I AM HERE, visit https://youtu.be/zM4VZR0px8E?list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw .
+
+Model selection is the task of selecting a statistical model from a set of candidate models, given data,Given candidate models of similar predictive or
+explanatory power, the simplest model is most likely to be the best choice (Occam's razor).
+
+In short what train_test_split does is it splits the data into training and testing data but if you want to know all the parameters that can be passed visit
+https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html .
+
+
+Exhaustive search over specified parameter values for an estimator, Important members are fit, predict,GridSearchCV implements a 'fit' and a 'score' method,
+It also implements 'score_samples', 'predict', 'predict_proba', 'decision_function', 'transform' and 'inverse_transform' if they are implemented in the estimator
+used, The parameters of the estimator used to apply these methods are optimized by cross-validated grid-search over a parameter grid, for more info visit -
+
+https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html but trust me this will only confuse you further for the best understanding of
+the concept go to - https://youtu.be/HdlDYng8g9s .
+
+
+Operators are used to perform operations on variables and values.
+
+metrics pairwise pairwise_distances(X, Y=None, metric='euclidean', n_jobs=1, **kwds) Compute the distance matrix from a vector array X and optional Y,
+This method takes either a vector array or a distance matrix, and returns a distance matrix, If the input is a vector array, the distances are computed,
+
+to understand metrics pairwise I suggest you to visit https://youtu.be/A_ZKMsZ3f3o but if you are more of text guy visit
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise_distances.html for better understanding.
+
+
+
+
+Cosine similarity measures the similarity between two vectors of an inner product space, It is measured by the cosine of the angle between two vectors and determines whether
+two vectors are pointing in roughly the same direction, It is often used to measure document similarity in text analysis, In fact even I use cosine similarity
+to map your inputted text to the best value, for a better understanding visit -
+https://youtu.be/ieMjGVYw9ag .
+
+feature_extraction is the name for methods that select and /or combine variables into features, effectively reducing the amount of data that must be processed, while still accurately
+and completely describing the original data set, this isnt a very important topic to know.
+
+
+Remember how we learnt how to calculate tf-idf, what if I told you there was a function that can do that for you know as TfidfVectorizer, its a pretty useful topic
+to know the syntax  visit - https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html .
+
+The sent_tokenize function helps you to tokenize sentences based on sentences.
+
+The sent_tokenize function helps you to tokenize sentences based on sentences.
+
+The word_tokenize function allows you to tokenize sentences based on words, its a pretty easy concept to understand.
+
+
+Table of contents includes -
+    1) Python basics
+    2) Pandas
+    3) Beautiful Soup
+    4) Python resources
+    5) Requests library
+    6) Html
+    7) Reading and writing files
+    8) with statement
+    9) urllib
+    10) NLP, NLTK
+    11) Strings
+    12) Floats
+    13) Booleans
+    14) Integers
+    15) Lists
+    16) Tuples
+    17) sets
+    18) Dictionaries
+    19) Variables
+    20) Tokenzation
+    21) Stemming
+    22) Lemming (Lemmatization)
+    23) For Loops
+    24) While loops
+    25) If elif
+    26) Functions
+    27) Lambda function
+    28) List comprehensions
+    29) String formatting
+    30) Python modules
+    31) JSON files
+    32) CSV files
+    33) XML files
+    34) Regex
+    35) Pip
+    36) Try except
+    37) User input
+    38) Bag of words
+    39) Problem with Bag of words
+    40) Numpy
+    41) sklearn
+    42) Linear models
+    43) Linear Regression
+    44) Logistic Regression
+    45) Model selection
+    46) train_test_split
+    47) GridSearchCv
+    48) Python operators
+    49) metrics_pairwise
+    50) cosine similarity
+    51) feature_extraction
+    52) TfidfVectorizer
+    53) Word Tokenizer
+    54) Sentence Tokenizer
+    55) data preprocessing
+    56) AI project cycle
+    57) what is AI
+    58) What is ML
+    59) Keras
+    60) Keras models
+    61) Keras losses
+    62) Keras optimizers
+    63) Keras layers
+    64) String methods
+
+This is a table of contents with 60+ pieces of data,
+These are all the contents covered by me, but dont forget I have many more features that you can check it in the features section.
+
+
+The process of data preprocessing includes -
+    i) Getting the required data
+    ii) Tokenize the data by word or sentence
+    iii) Apply stemming or lemmatizing on it
+    iv) Create a bag of words of it or TFIDF of it
+
+This is the process of data preprocessing you can also check out the AI project cycle.
+
+The AI project cycle is -
+
+    i) Problem scoping
+    ii) Data acquisition
+    ii) Data processing
+    iv) Modelling
+    v) Evaluation
+    vi) Deployment
+
+This is the AI project cycle.
+
+Artificial intelligence ( AI ) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions The
+term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving, There are many different modules to
+practice AI.
+
+Machine learning ( ML ) is the study of computer algorithms that improve automatically through experience, ML is the subset of AI.
+
+Keras is a neural network library, I also have other info about Keras which includes models, losses, Keras optimizers, be sure to check them out.
+
+
+Keras models represents the actual neural network models, Keras provides a two mode to create models, simple and easy to use Sequential API as well as more flexible and advanced
+Functional API, in my opinion this is a pretty hard topic visit https://youtu.be/VGCHcgmZu24 to understand more Keras models better.
+
+The purpose of loss functions in Keras is to compute the quantity that a model should seek to minimize during training, for a better of keras losses understanding go to -
+https://keras.io/api/losses/ .
+
+Layers are the basic building blocks of neural networks in Keras, A layer consists of a tensor-in tensor-out computation function (the layer's call method) and some state,
+held in TensorFlow variables (the layer's weights), this is an essential topic to understand Keras as well as AI, visit https://keras.io/api/layers/ to learn more.
+
+An optimizer is one of the two arguments required for compiling a model in Keras, visit https://keras.io/api/optimizers/ for text based understanding of Keras optimizers
+and https://youtu.be/JhQqquVeCE0 for a video based understanding of keras optimizers.
+
+String methods are useful methods that you can use on strings, go to this link to know more - https://www.w3schools.com/python/python_ref_string.asp
+methods like lower() and strip() are all part of this group.
