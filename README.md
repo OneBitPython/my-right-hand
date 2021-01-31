@@ -10,3 +10,9 @@
 
 
 ![](main_screen.png)
+
+
+![](Todo_image.png)
+
+
+![](Settings_image.png)
