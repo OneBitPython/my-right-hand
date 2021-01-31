@@ -11,6 +11,8 @@
 ## How to run the code
 You can run the code by installing the exe file and then running the MAIN.py file inside it. If you find it difficult to run the program, you can watch our quick video on some basic functionality of our program.
 
+![](Final.mp4)
+
 ## Some advanced features
 
 This project also gives you resources and also has a list of features. Don't worry Tim I have mentioned your YT channel as a part of the video resources!!
