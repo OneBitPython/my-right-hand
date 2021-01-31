@@ -1,3 +1,8 @@
+geocoder==1.38.1
+geopy==2.1.0
+googlesearch-python==2020.0.2
+keyboard==0.13.5
+pyperclip==1.8.1
 PyQt5==5.15.2
 pygame==2.0.0
 pyjokes==0.6.0
