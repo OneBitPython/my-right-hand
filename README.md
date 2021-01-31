@@ -9,6 +9,10 @@
  There are also options like telling jokes, showing satellite maps and road maps and even showing fun facts and quotes. It can also carry out basic mathematical calculations and basic conversions.
 
 
+## Some advanced features
+
+This project also gives you resources and also has a list of features. Don't worry Tim I have mentioned your YT channel as a part of the video resources!!
+
 ![](main_screen.png)
 
 
