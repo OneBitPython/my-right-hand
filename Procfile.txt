@@ -1,1 +1,1 @@
-worker: python MAIN.py
+worker: web MAIN.py
