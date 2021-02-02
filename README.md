@@ -13,7 +13,7 @@ You can run the code by installing the exe file and then running the MAIN.py fil
 
 ## This is just a GIF to view full video with audio click on this GIF and download the mp4 file.
 
-[![Virtual Assistant](MAIN.gif)](Final.mp4)
+[![Virtual Assistant](MAIN.gif)](TWT codejam.mp4)
 
 ## Some advanced features
 
