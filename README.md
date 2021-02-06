@@ -3,7 +3,7 @@
  This is a virtual assistant called MyRightHand. It has been made by team PHP_sucks. It is intended to be a bot that helps you in coding, by giving you a table of contents, which you can use to study study basic concepts.and it also answers a few basic coding questions, mainly related to AI and ML. But creating a bot only for answering coding problems would have been pretty boring, because of that we have added many other features, a few you can read about in the next section. Oh, and also this bot jelps in python coding questions specifically.
 
 ## Visit the youtube video to know more
-## https://www.youtube.com/watch?v=IM5lfK0IM_k
+## https://www.youtube.com/watch?v=E8LY12I8YQY&feature=youtu.be
 
 ## More about this project
 
