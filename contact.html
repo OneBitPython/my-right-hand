@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Green Gardens</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="stylesheet4.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <div class="header-image">
+            <img src=logo.jpg>
+          </div>
+          <a class="navbar-brand" href="index.html" id="hey">Green <br>Gardens</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li  id='what'><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Gallery <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="videos.html">Videos</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    </header>
+
+    <div class="main">
+      <!--Just a simple id called map-->
+      <div id="map"></div>
+      <!--this is a part of java code to write java code in html all we have to do is write a script tag-->
+      <!--Functions are something that we can activate if something happens in the website-->
+      <!--functions show us how the map should function for example where the marker for our location should be-->
+      <script>
+        function initMap(){
+          var location = {lat:12.199268, lng:75.267915};
+          var map = new google.maps.Map(document.getElementById("map"),{
+            zoom:6,
+            center:location
+          }); 
+          var marker = new google.maps.Marker({
+            position:location,
+            map:map
+          });
+        }
+        
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBm6Eb3QLJZ5k3nvcankysD7j4jV5nWckw&callback=initMap"></script>
+      <div class="contact">
+        <h1>Contact</h1>
+        <a href="tel:944-768-5885">944-768-5885</a>
+        <a href="tel:900-808-3300">900-808-3300</a>
+      </div>
+      <div class="address">
+        <h1>Address</h1>
+        <p>CRPF Rd, RTC-3 CRPF, Peringome, Kerala, 670353</p>
+      </div>
+      <div class="available">
+        <h1>Nearby</h1>
+        <p>Kannur International Airport</p>
+        <br>
+        <p>Bekal Fort and Beach</p>
+        <br>
+        <p>Ezhimala Naval Academy</p>
+        <br>
+        <p>Cheruvathoor Boating</p>
+        <br>
+        <p>ASTRO Payyanur Observatory</p>
+        <br>
+        <p>Natural Cave Koovapara</p>
+        <br>
+        <p>Valiyaparamba Beach</p>
+        <br>
+
+      </div>
+
+    </div>
+    <div class="footer-dark">
+          <footer>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-6 col-md-3 item">
+                          <h3>Services</h3>
+                          <ul>
+                            <li><a>Residence</a></li>
+                            <li><a>Recreational activities</a></li>
+                            <li><a>Nature visit</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-sm-6 col-md-3 item">
+                          <h3>About</h3>
+                          <ul>
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="contact.html">Contact</a></li>
+                              <li><a href="photos.html">Photos</a></li>
+                              <li><a href="videos.html">Videos</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-md-6 item text">
+                          <h3>Address</h3>
+                          <p>CRPF Rd, RTC-3 CRPF, Peringome, Kerala, 670353
+                              <br>
+                              <a href="https://www.google.com/maps/place/CRPF+Rd,+RTC-3+CRPF,+Peringome,+Kerala+670353/@12.2139541,75.2881045,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba4688670d02f7f:0x9db85275dca43a5c!8m2!3d12.2139489!4d75.2902932" class="google_maps">Google Maps</a>
+                              <br>
+                              <a href="tel:944-768-5885" class="call">944-768-5885</a>
+                              <br>
+                              <a href="tel:900-808-3300" class="call">900-808-3300</a>
+                          </p>
+
+                      </div>
+                      <div class="col item social">
+                        <img src="logo.jpg" id="img">
+                      </div>
+                  </div>
+                  <p class="copyright">Copyright©2021 All rights Reserved by Ananthram</p>
+              </div>
+          </footer>
+    </div>
+
+
+
+
+  </body></html>
